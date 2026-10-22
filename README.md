@@ -6,7 +6,7 @@ Follow the lab handout for the full instructions.
 
 ## About the program
 
-A personal income-tax calculator. It works out tax under the new and old regimes (standard deduction, slab rates, Section 87A rebate, 80C/80D deductions and cess), picks the better regime, validates and encrypts PAN numbers, generates a signing key, reads salary and TDS from a Form-16 XML file, and can run as a CGI app. The slabs are those configured in the program (modelled on FY 2025-26) and are for teaching only, not tax advice.
+A personal income-tax calculator. It works out tax under the new and old regimes (standard deduction, slab rates, Section 87A rebate, 80C/80D deductions and cess), picks the better regime, validates and encrypts PAN numbers, generates a signing key, and reads salary and TDS from a Form-16 XML file. The slabs are those configured in the program (modelled on FY 2025-26) and are for teaching only, not tax advice.
 
 The code works, but only just. It has quality, style and security problems of the kind Pylint, Flake8 and Bandit are built to find.
 
